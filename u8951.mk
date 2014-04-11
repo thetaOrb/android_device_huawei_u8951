@@ -27,7 +27,7 @@ $(call inherit-product, device/huawei/u8951/configs/configs.mk)
 $(call inherit-product, device/huawei/u8951/input/input.mk)
 
 # Include ramdisk
-$(call inherit-product, device/huawei/u8951/ramdisk/ramdisk.mk)
+$(call inherit-product, device/huawei/u8951/rootdir/rootdir.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/huawei/u8951/overlay

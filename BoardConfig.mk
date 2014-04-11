@@ -64,4 +64,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 1207943168
 
 # Recovery
 BOARD_CUSTOM_GRAPHICS := ../../../device/huawei/u8951/recovery/graphics.c
-TARGET_RECOVERY_FSTAB := device/huawei/u8951/ramdisk/fstab.huawei
+TARGET_RECOVERY_FSTAB := device/huawei/u8951/rootdir/fstab.huawei

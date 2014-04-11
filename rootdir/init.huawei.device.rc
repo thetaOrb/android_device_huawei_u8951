@@ -26,9 +26,10 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-on init
-    # framebuffer pls... :(
+on early-init
     write /sys/module/msm_fb/parameters/align_buffer 1
+
+# Services
 
 service rmt_storage /system/bin/rmt_storage /dev/block/mmcblk0p9 /dev/block/mmcblk0p10 /dev/block/mmcblk0p14
     class core
