@@ -1,7 +1,7 @@
 From a584c191461eaafa01c57e9b0d6c0bba9b10e4f9 Mon Sep 17 00:00:00 2001
 From: Daz Jones <yuki@thebronasium.com>
 Date: Thu, 10 Oct 2013 22:01:18 +0100
-Subject: [PATCH] Update Huawei SoftapControllerATH for 4.4 (and 4.3)
+Subject: [PATCH] system/netd (0001): Huawei SoftapControllerATH
 
 Original Huaweifying by Kra1o5
 'Revival' of SoftapControllerATH by grigorig

@@ -1,7 +1,7 @@
 From 2b8e36dd0c01a793e69a41cdeeaf5f87e41fb0f4 Mon Sep 17 00:00:00 2001
 From: Kra1o5 <kra1o5x@gmail.com>
 Date: Wed, 9 Oct 2013 12:35:40 +0100
-Subject: [PATCH] Add path for wifi firmware
+Subject: [PATCH] system/core (0001): Add path for wifi firmware
 
 Change-Id: Ia898beee3ab843e400b595813ad2977b026997ca
 ---
