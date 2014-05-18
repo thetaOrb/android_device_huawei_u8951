@@ -15,7 +15,6 @@
 #
 
 files := \
-	AudioFilter.csv \
 	thermald.conf
 
 PRODUCT_COPY_FILES += $(foreach file,$(files),\
