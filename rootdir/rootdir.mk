@@ -17,7 +17,8 @@
 froot := \
 	init.huawei.device.rc \
 	fstab.huawei \
-	tp/1191601.img
+	tp/1191601.img \
+        init.huawei.ril.sh
 
 PRODUCT_COPY_FILES += $(foreach file,$(froot),\
         $(LOCAL_PATH)/$(file):root/$(file))

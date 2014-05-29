@@ -29,7 +29,17 @@
 on early-init
     write /sys/module/msm_fb/parameters/align_buffer 1
 
+# Events
+
+on property:dev.bootcomplete=1
+    start init_ril
+
 # Services
+
+service init_ril /system/bin/sh /init.huawei.ril.sh
+    class core
+    user root
+    oneshot
 
 service rmt_storage /system/bin/rmt_storage /dev/block/mmcblk0p9 /dev/block/mmcblk0p10 /dev/block/mmcblk0p14
     class core
