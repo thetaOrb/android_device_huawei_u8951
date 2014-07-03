@@ -20,6 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from u8951 device
 $(call inherit-product, device/huawei/u8951/u8951.mk)
 
+PRODUCT_AAPT_CONFIG := normal hdpi
+PRODUCT_AAPT_PREF_CONFIG := hdpi
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_BRAND := Huawei
 PRODUCT_MANUFACTURER := HUAWEI

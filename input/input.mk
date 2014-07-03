@@ -22,4 +22,4 @@ files := \
 	keylayout/Generic.kl
 
 PRODUCT_COPY_FILES += $(foreach file,$(files),\
-        $(LOCAL_PATH)/$(file):system/usr/$(file))
+	$(LOCAL_PATH)/$(file):system/usr/$(file))
