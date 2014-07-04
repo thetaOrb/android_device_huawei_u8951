@@ -39,7 +39,9 @@ on property:dev.bootcomplete=1
 service init_ril /system/bin/sh /init.huawei.ril.sh
     class core
     user root
+    critical
     oneshot
+    disabled
 
 service rmt_storage /system/bin/rmt_storage /dev/block/mmcblk0p9 /dev/block/mmcblk0p10 /dev/block/mmcblk0p14
     class core
