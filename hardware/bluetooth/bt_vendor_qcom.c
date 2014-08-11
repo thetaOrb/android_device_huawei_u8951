@@ -68,7 +68,7 @@ static int bt_vendor_qcom_op(bt_vendor_opcode_t opcode, void *param)
 	 * opened, so we have to download it at power up.
 	 * Report dummy success here. */
 	case BT_VND_OP_FW_CFG:
-		sleep(1); /* There seems to be a race condition. */
+		//sleep(1); /* There seems to be a race condition. */ (The race condition seems to be solved)
 		bt_vendor_callbacks->fwcfg_cb(BT_VND_OP_RESULT_SUCCESS);
 		break;
 	case BT_VND_OP_SCO_CFG:
